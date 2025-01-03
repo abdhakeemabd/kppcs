@@ -1,0 +1,23 @@
+.team-sec .team-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s
+}
+.team-sec .team-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #000000cc;
+    color: #fff;
+    transition: all 0.3s;
+
+}
+.team-sec .team-card .team-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.team-sec .team-card .cont{
+    padding: 10px 20px;
+
+}

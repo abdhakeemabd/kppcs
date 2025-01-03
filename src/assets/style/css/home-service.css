@@ -1,0 +1,24 @@
+.home-ser-sec{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/banner/home1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    align-content: center;
+    color: #fff;
+}
+.home-ser-sec .btn-discover{
+    background-color: #222;
+    padding: 10px 30px;
+    border: 1px solid #222;
+    border-radius: 3px;
+    transition: all 0.3s;
+    color: #fff;
+    font-weight: 600;
+}
+.home-ser-sec .btn-discover:hover{
+    color: #333;
+    background:#fff;
+    border:1px solid #ffffff ;
+    transition: all 0.3s;
+}

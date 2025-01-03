@@ -1,0 +1,10 @@
+.vision-mission-sec .vision-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.vision-mission-sec .mission-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
