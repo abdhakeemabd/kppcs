@@ -21,8 +21,8 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: 'Rishad',
-    position: 'Finance manager ',
+    name: 'Hakeem',
+    position: 'Chief Technology Officer ',
     image: Team3,
   },
   {
