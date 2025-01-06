@@ -14,7 +14,7 @@ function Footer() {
         <div className="row">
             <div className="col-md-5">
                 <a href="#" className='mb-3 d-flex align-items-center'>
-                    <img className='logo' src={Logo} alt="" />
+                    <img className='logo' src={Logo} alt="Logo" loading='lazy' />
                    <div className='d-block mt-3'>
                    <div className='text-white text-uppercase'>Consulting</div>
                    <div className='text-white text-uppercase lp-2'>Group</div>

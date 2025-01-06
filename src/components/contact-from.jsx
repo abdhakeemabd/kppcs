@@ -65,7 +65,7 @@ function ContactForm() {
     <section className="contact-form-sec">
       <div className="container">
         <div className="row">
-          <div className="col-md-7 mb-3 mb-md-0">
+          <div className="col-md-6 mb-3 mb-md-0">
             <div className="contact-info">
               <div className="row">
                 <div className="col-12">
@@ -96,7 +96,7 @@ function ContactForm() {
           </div>
 
           {/* Contact Form */}
-          <div className="col-md-5 mb-3 mb-md-0">
+          <div className="col-md-6 mb-3 mb-md-0">
             <div className="contact-form">
               <form  onSubmit={onSubmit} method="POST">
                 <div className="row text-start">
@@ -107,7 +107,7 @@ function ContactForm() {
                   <div className="col-md-6 mb-3">
                     <label htmlFor="firstname">First Name</label>
                     <input 
-                      className='form-control' 
+                      className='form-control mt-2' 
                       type="text" 
                       name="firstname" 
                       id="firstname" 
@@ -120,7 +120,7 @@ function ContactForm() {
                   <div className="col-md-6 mb-3">
                     <label htmlFor="lastname">Last Name</label>
                     <input 
-                      className='form-control' 
+                      className='form-control mt-2' 
                       type="text" 
                       name="lastname" 
                       id="lastname" 
@@ -131,8 +131,9 @@ function ContactForm() {
                     /> 
                   </div>
                   <div className="col-12 mb-3">
+                  <label htmlFor="lastname"> Phone Number</label>
                   <input 
-                    className='form-control' 
+                    className='form-control mt-2' 
                     type="text" 
                     name="phone" 
                     id="phone" 
@@ -147,6 +148,7 @@ function ContactForm() {
                   />
                   </div>
                   <div className="col-12 mb-3">
+                  <label htmlFor="lastname">Email</label>
                     <input
                       className="form-control mt-2"
                       type="email"
@@ -159,8 +161,9 @@ function ContactForm() {
                     />
                   </div>
                   <div className="col-12 mb-3">
+                  <label htmlFor="lastname">Message</label>
                     <textarea
-                      className="form-control"
+                      className="form-control mt-2"
                       placeholder="Enter your message..."
                       id="message"
                       name="message"

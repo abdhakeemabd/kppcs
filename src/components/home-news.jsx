@@ -126,7 +126,7 @@ function HomeNews() {
             <div key={newsItem.id}>
               <div className="news-card" data-aos="fade-up" data-aos-offset="10">
                 <div className='img-card mb-3'>
-                  <img className='news-img img-fluid' src={newsItem.image} alt={`News ${newsItem.id}`} />
+                  <img className='news-img img-fluid' src={newsItem.image} alt={`News ${newsItem.id}`} loading='lazy'/>
                 </div>
                 <div className='cont'>
                 <h5 className=''>{newsItem.title}</h5>

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import PageBanner from '../components/page-banner';
-import Banner1 from '../assets/images/banner/contact-banner.jpg';
+import Banner1 from '../assets/images/banner/contact-banner.webp';
 import ContactForm from '../components/contact-from';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 

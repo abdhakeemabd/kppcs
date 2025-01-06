@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/style/css/team.css';
-import Team1 from '../assets/images/team/1.jpg';
-import Team2 from '../assets/images/team/2.jpg';
-import Team3 from '../assets/images/team/4.jpg';
-import Team4 from '../assets/images/team/5.jpg';
+import Team1 from '../assets/images/team/1.webp';
+import Team2 from '../assets/images/team/2.webp';
+import Team3 from '../assets/images/team/6.webp';
+import Team4 from '../assets/images/team/4.webp';
 
 
 const teamMembers = [
@@ -22,13 +22,13 @@ const teamMembers = [
   {
     id: 3,
     name: 'Hakeem',
-    position: 'Chief Technology Officer ',
+    position: 'Technical Head ',
     image: Team3,
   },
   {
     id: 4,
-    name: 'Javad',
-    position: 'CMO/ Co-founter',
+    name: 'Nyothika Pattniak',
+    position: 'Technical Manager ',
     image: Team4,
   },
 ];
@@ -45,7 +45,7 @@ function Team() {
             <div className="col-md-4 mb-3" data-aos="fade-up" data-aos-offset="10" key={member.id}>
               <div className="team-card">
                 <div className="img-card">
-                  <img className='team-img' src={member.image} alt={member.name} />
+                  <img className='team-img' src={member.image} alt={member.name}  loading='lazy'/>
                 </div>
                 <div className='cont'>
                   <h5>{member.name}</h5>

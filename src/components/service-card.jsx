@@ -115,7 +115,7 @@ function ServiceCard() {
             <div key={service.id} className="col-lg-4 col-md-6 mb-3"  data-aos="fade-up" data-aos-offset="10">
               <div className="card-sm my-3">
                 <div className='sr-card'>
-                  <img src={service.icon} alt={`${service.title}-icon`} />
+                  <img src={service.icon} alt={`${service.title}-icon`} loading='lazy' />
                 </div>
                 <h5 className='mt-4'>{service.title}</h5>
                 <p>{service.description}</p>

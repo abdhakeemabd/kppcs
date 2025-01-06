@@ -1,10 +1,10 @@
 import React from 'react';
 import Slider from 'react-slick'; 
 import '../assets/style/css/home-update.css';
-import Card1 from "../assets/images/banner/2.jpg";
-import Card2 from "../assets/images/banner/protfolio1.jpg";
-import Card3 from "../assets/images/banner/protfolio.jpg";
-import Card4 from "../assets/images/banner/service-banner.jpg";
+import Card1 from "../assets/images/banner/2.webp";
+import Card2 from "../assets/images/banner/protfolio1.webp";
+import Card3 from "../assets/images/banner/protfolio.webp";
+import Card4 from "../assets/images/banner/service-banner.webp";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -102,7 +102,7 @@ function HomeUpdates() {
               <div key={update.id} className="">
                 <div className="update-card">
                   <div className="img-card position-relative overflow-hidden mb-3">
-                  <img className='update-img' src={update.image} alt={update.title} />
+                  <img className='update-img' src={update.image} alt={update.title}  loading='lazy'/>
                   </div>
                   <div className="cont px-3 py-2">
                     <h5 className='mb-3 fs-16'>{update.title}</h5>
