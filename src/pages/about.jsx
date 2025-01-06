@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import PageBanner from '../components/page-banner';
-import Banner2 from '../assets/images/banner/about-3.jpg';
+import Banner2 from '../assets/images/banner/about-3.webp';
 import VisionMission from '../components/vision-mission';
 import Team from '../components/team';
 import { Helmet, HelmetProvider } from 'react-helmet-async';

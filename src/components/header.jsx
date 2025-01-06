@@ -31,7 +31,7 @@ function Navbar() {
           <div className="row align-items-center">
             <div className="col-lg-4 col-4">
               <Link to={"/"}>
-                <img src={Logo} className='logo' alt="Logo" />
+                <img src={Logo} className='logo' alt="Logo" loading='lazy' />
               </Link>
             </div>
             <div className="col-lg-6 col-2">
@@ -48,7 +48,7 @@ function Navbar() {
               <ul className='p-0 m-0 d-flex justify-content-end'>
                 <li className='search'>
                   <button className='btn search-btn' onClick={toggleSearchField}>
-                    <img className='search-img' src={Search} alt="Search" />
+                    <img className='search-img' src={Search} alt="Search"  loading='lazy'/>
                   </button>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ function Navbar() {
             className={`search-field ${showSearchField ? 'expand' : ''}`}>
             <input type="text" placeholder="Search..." className="search-input" />
             <button className='btn position-absolute' onClick={closeField}>
-              <img className='search-img' src={Close} alt="Search" />
+              <img className='search-img' src={Close} alt="Search"  loading='lazy'/>
             </button>
           </div>
         </div>
