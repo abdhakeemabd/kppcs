@@ -39,7 +39,7 @@ function ServiceCard() {
       icon: Serv2,
       title: 'Indirect Taxes',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quidem enim doloremque nam accusamus voluptatum vitae praesentium fugiat aliquam id aut eligendi possimus ipsa minima ab minus a alias reiciendis.',
+        'We offer clear and practical guidance on indirect taxes, helping businesses handle GST, VAT, and other tax requirements with ease and confidence.',
       image: Img3,
     },
     {
@@ -47,7 +47,7 @@ function ServiceCard() {
       icon: Serv6,
       title: 'Accounts & Audit',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quidem enim doloremque nam accusamus voluptatum vitae praesentium fugiat aliquam id aut eligendi possimus ipsa minima ab minus a alias reiciendis.',
+        'Accounts & Audit services ensure your financial records are accurate and compliant with regulations. We offer thorough audits, transparent reporting, and trusted financial advice to help manage your business confidently.',
       image: Img1,
     },
     {
@@ -86,7 +86,7 @@ function ServiceCard() {
         icon: Serv3,
         title: 'Poster & Visiting Card Desin ',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quidem enim doloremque nam accusamus voluptatum vitae praesentium fugiat aliquam id aut eligendi possimus ipsa minima ab minus a alias reiciendis.',
+          'Create a professional design that communicates your message clearly. The poster highlights key details, and the visiting card ensures a lasting, memorable brand presence',
         image: Img8,
       },
       {
@@ -94,7 +94,7 @@ function ServiceCard() {
         icon: Serv9,
         title: 'Employees State Insurance (ESI)',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quidem enim doloremque nam accusamus voluptatum vitae praesentium fugiat aliquam id aut eligendi possimus ipsa minima ab minus a alias reiciendis.',
+          'Employees State Insurance (ESI) is a scheme that provides medical, cash, and pension benefits to employees and their families, funded by contributions from both employers and employees.',
         image: Img9,
       },
       {
@@ -102,7 +102,7 @@ function ServiceCard() {
         icon: Serv10,
         title: 'Compliances',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quidem enim doloremque nam accusamus voluptatum vitae praesentium fugiat aliquam id aut eligendi possimus ipsa minima ab minus a alias reiciendis.',
+          'Compliances in accounting involve following legal and regulatory requirements, like tax laws and financial reporting standards, to ensure accurate records and avoid penalties.',
         image: Img10,
       },
   ];

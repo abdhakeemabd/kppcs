@@ -73,8 +73,7 @@ function ContactForm() {
                     Have a Creative Challenge? Let’s Solve It Together!
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur necessitatibus reprehenderit
-                    impedit inventore vero doloremque architecto debitis facilis sunt quod?
+                  Reach out to us, and we'll help transform your ideas into success. We're here to guide and support you!
                   </p>
                 </div>
                 <div className="col-12">

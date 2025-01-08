@@ -21,7 +21,7 @@ function Footer() {
                    </div>
                 </a>
                 <p className='mb-1 text-m-white'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste voluptates non quaerat deserunt in repellat corporis ratione quibusdam repellendus.
+                Driving business success through innovation, excellence, and customer-focused solutions.
                 </p>
             </div>
             <div className="col-md-3">
