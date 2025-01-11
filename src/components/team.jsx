@@ -6,13 +6,14 @@ import Team3 from '../assets/images/team/6.webp';
 import Team4 from '../assets/images/team/4.webp';
 import Team5 from '../assets/images/team/5.webp';
 import Team6 from '../assets/images/team/8.webp';
+import Team7 from '../assets/images/team/9.webp';
 
 
 
 const teamMembers = [
   {
     id: 1,
-    name: 'Kunjanuppa',
+    name: 'Nizam',
     position: 'CEO / Founder',
     image: Team1,
   },
@@ -24,9 +25,9 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: 'Shihab',
-    position: 'Product Head',
-    image: Team3,
+    name: 'Hakeem',
+    position: 'Technical Head ',
+    image: Team5,
   },
   {
     id: 4,
@@ -36,15 +37,21 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: 'Saidhalavi',
-    position: 'Treasury Head',
-    image: Team6,
+    name: 'Teesha Jain',
+    position: 'Sr. Consultant',
+    image: Team7,
   },
   {
     id: 6,
-    name: 'Hakeem',
-    position: 'Technical Head ',
-    image: Team5,
+    name: 'Shihab',
+    position: 'Product Head',
+    image: Team3,
+  },
+  {
+    id: 7,
+    name: 'Saidhalavi',
+    position: 'Treasury Head',
+    image: Team6,
   },
 ];
 
