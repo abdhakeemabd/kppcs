@@ -8,6 +8,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Service from './pages/service';
 import Contact from './pages/contact';
+import Protfolio from './pages/protfolio';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/services' element={<Service/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/protfolio' element={<Protfolio/>}/>
     </Routes>
     </Router>
     </>

@@ -1,0 +1,75 @@
+
+.protfolio-sec{
+    background-color: hsl(0, 0%, 100%);
+}
+.protfolio-sec .protfolio-card {
+    padding: 1rem 1rem 1.5rem;
+}
+.protfolio-sec .protfolio-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    background-color: var(--white-color);
+border-radius: 0.35rem;
+}
+.protfolio-sec .protfolio-card .subtitle{
+    position: relative;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight:500;
+    color:hsl(0, 0%, 35%);
+    margin-bottom: 0.75rem;
+    padding-left: 1.75rem;
+}
+.protfolio-sec .protfolio-card .subtitle::after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: hsl(0, 0%, 35%);
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.protfolio-sec .protfolio-card .card-bottom{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.protfolio-sec .protfolio-card .card-bottom .link
+{
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    color:  hsl(0, 0%, 35%);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.4s;
+}
+.protfolio-sec .protfolio-card .protfolio-img
+{
+    max-width: 100%;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.35rem;
+}
+.protfolio-sec .protfolio-card .card-bottom svg{
+   font-size: 25px;
+   color: #242424;
+   transition: color 0.4s;
+
+}
+.protfolio-sec .protfolio-card .card-bottom a:hover, .protfolio-sec .protfolio-card .card-bottom a:hover svg{
+    color: #1087e9 !important;
+}
+.protfolio-sec .protfolio-card .bt{
+    background-color:#222;
+    color: #fff;
+    border-radius: 0.35rem;
+    transition: background-color 0.4s;
+    position: absolute;
+    right: 1rem;
+    bottom: -1.5rem;
+    padding: 0.8rem 1rem;
+}
+.protfolio-sec .protfolio-card .bt:hover{
+    background-color: #1087e9;
+}

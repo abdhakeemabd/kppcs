@@ -34,7 +34,10 @@ function Footer() {
                   <a className='link' href={"/about"}>About</a>
                 </li>
                 <li className='link-items'>
-                  <a className='link' href={"/service"}>Service</a>
+                  <a className='link' href={"/services"}>Service</a>
+                </li>
+                <li className='link-items'>
+                  <a className='link' href={"/protfolio"}>Protfolio</a>
                 </li>
                 <li className='link-items'>
                   <a className='link' href={"/contact"}>Contact</a>
