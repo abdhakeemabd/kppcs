@@ -53,8 +53,8 @@ function Footer() {
                  <FaMapMarkerAlt />
                  </div>
                  <div className='ms-2'>
-                 <a>Bare shell, Battarhalli, <br />  Bengalore, <br /> 560049
-                 </a>
+                 <div className='text-white'>Bare shell, Battarhalli, <br />  Bengalore, <br /> 560049
+                 </div>
                  </div>
                  </div>
               </li>

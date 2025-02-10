@@ -73,7 +73,7 @@ function Navbar() {
                   </button>
                 </li>
                 <li>
-                  <button className='btn text-white shadow-none'><FaUser/></button>
+                  <button aria-label="User" className='btn text-white shadow-none'><FaUser/></button>
                 </li>
               </ul>
             </div>

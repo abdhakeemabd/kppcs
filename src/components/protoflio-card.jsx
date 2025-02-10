@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/style/css/protfolio.css';
 import Jdt from '../assets/images/protfolio/jdt.webp';
 import KG from '../assets/images/protfolio/kg.webp'
-import Selto from '../assets/images/protfolio/selto.jpeg'
 import { IoEyeSharp } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaLink } from "react-icons/fa6";
@@ -23,14 +22,6 @@ function ProtfolioCard() {
         url: 'Feb ',
         url1: '',
         content: 'KG Electronics & Home Appliances is your trusted destination for high-quality electronic products and home essentials. Offering a wide range of appliances, including refrigerators, washing machines, TVs, and kitchen gadgets, KG Electronics ensures the best deals with flexible EMI options and zero down payment.',
-      },
-      {
-        image: Selto,
-        subTitle: 'Sticker Poster',
-        title: 'Sticker Poster',
-        url: 'Feb ',
-        url1: '',
-        content: 'Selto Laundry Liquid is a high-quality detergent designed for effective cleaning and freshness. Infused with a soothing lavender fragrance, it ensures a delightful washing experience. The product is manufactured by RJ Soap, Karipur, and is available in a 5 kg pack. It is recommended for both hand and machine wash, with a suggested usage of 50 ml per load. For safety, it should be kept away from direct sunlight and out of reach of children. ',
       },
   ];
 

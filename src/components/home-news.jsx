@@ -128,10 +128,10 @@ function HomeNews() {
                 <div className='img-card mb-3'>
                   <img className='news-img img-fluid' src={newsItem.image} alt={`News ${newsItem.id}`} loading='lazy'/>
                 </div>
-                <div className='cont'>
+                <div className='cont' aria-hidden="true">
                 <h5 className=''>{newsItem.title}</h5>
                   <p className='truncate-3 poppins-light'>{newsItem.description}</p>
-                  <a href={newsItem.url} className='btn btn-more'>Learn more</a>
+                  <a  aria-label='Learen more' tabindex="-1" href={newsItem.url} className='btn btn-more'>Learn more</a>
                 </div>
               </div>
             </div>
