@@ -131,7 +131,7 @@ function HomeNews() {
                 <div className='cont' aria-hidden="true">
                 <h5 className=''>{newsItem.title}</h5>
                   <p className='truncate-3 poppins-light'>{newsItem.description}</p>
-                  <a  aria-label={`Learn more about ${newsItem.title}`} tabindex="-1" href={newsItem.url} className='btn btn-more'>Learn more</a>
+                  <a  aria-label={`Learn more about ${newsItem.title}`} tabindex="-1" href={newsItem.url} className='btn btn-more'>Learn more <span className='d-none'> {newsItem.title}</span></a>
                 </div>
               </div>
             </div>
