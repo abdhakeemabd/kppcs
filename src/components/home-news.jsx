@@ -117,7 +117,7 @@ function HomeNews() {
       <div className="container">
         <div className="row">
           <div className="col-12 mb-3" data-aos="fade-up" data-aos-offset="10">
-            <h4 className='mb-2'><span className='text-uppercase'>Services</span></h4>
+            <div className='mb-2'><span className='text-uppercase fs-4 font-bold'>Services</span></div>
             <p className='fs-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repudiandae!</p>
           </div>
         </div>
@@ -131,7 +131,7 @@ function HomeNews() {
                 <div className='cont' aria-hidden="true">
                 <h5 className=''>{newsItem.title}</h5>
                   <p className='truncate-3 poppins-light'>{newsItem.description}</p>
-                  <a  aria-label='Learen more' tabindex="-1" href={newsItem.url} className='btn btn-more'>Learn more</a>
+                  <a  aria-label={`Learn more about ${newsItem.title}`} tabindex="-1" href={newsItem.url} className='btn btn-more'>Learn more</a>
                 </div>
               </div>
             </div>

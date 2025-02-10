@@ -25,7 +25,7 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: 'Hakeem',
+    name: 'Salman',
     position: 'Technical Head ',
     image: Team5,
   },

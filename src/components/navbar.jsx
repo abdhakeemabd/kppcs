@@ -66,7 +66,7 @@ function Navbar() {
                   </button>
                 </li>
                 <li className='d-block d-xl-none'>
-                  <button
+                  <button aria-label="Menu"
                     className="nav-btn btn"
                     onClick={showNavbar}>
                     {isNavOpen ? <FaTimes /> : <FaBars />}
