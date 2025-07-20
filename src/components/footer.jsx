@@ -64,7 +64,7 @@ function Footer() {
                   <IoCall />
                   </div>
                   <div className='ms-2'>
-                  <a className='d-block' href="+91 8606065001">+91 8606065001</a>
+                  <a className='d-block' href="tel:8606065001">+91 8606065001</a>
                   </div>
                 {/* <a className='d-block' href="tel:+91 98460 07257">+91 6282 014 275</a> */}
                 </div>
